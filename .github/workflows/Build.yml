@@ -17,13 +17,15 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
       - name: Build Debug APK
         run: gradle assembleDebug
-        working-directory: ./Pos-main
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: Pos-main/app/build/outputs/apk/debug/app-debug.apk
+          path: '**/*.apk'
           
