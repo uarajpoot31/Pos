@@ -1,0 +1,6 @@
+{
+  "name": "AL ILM BOOK DEPOT",
+  "description": "Professional POS & Inventory Management Software for stationery and book shops.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

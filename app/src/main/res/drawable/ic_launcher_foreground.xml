@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Gold Scholastic Open Book & Lit Torch Symbol centered in the 66dp safe zone (viewport 30 to 78) -->
+    
+    <!-- Left Page of Open Book -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,64C48,64 36,60 30,62L30,36C36,34 48,38 54,38Z"
+        android:strokeColor="#FFC107"
+        android:strokeWidth="1.5" />
+        
+    <!-- Right Page of Open Book -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,64C60,64 72,60 78,62L78,36C72,34 60,38 54,38Z"
+        android:strokeColor="#FFC107"
+        android:strokeWidth="1.5" />
+
+    <!-- Scholastic Scroll Binding -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M51,36h6v28h-6z" />
+        
+    <!-- Lit Torch Emblem / Flame of Knowledge -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M54,20c0,0 -8,5 -4,11c2,3 4,5 4,5s2,-2 4,-5c4,-6 -4,-11 -4,-11z" />
+        
+    <!-- Torch handle base -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M52,34h4l1,5h-6z" />
+</vector>
